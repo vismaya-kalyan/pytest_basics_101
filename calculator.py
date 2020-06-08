@@ -37,7 +37,7 @@ class Calculator:
         if not isinstance(operand, numbers.Number):
             raise CalculatorError(f'"{operand}" is not a number')
 
-    def read_json(some_file_path):
+    def read_json(self, some_file_path):
         with open(some_file_path, "r") as f:
             return json.load(f)
 
