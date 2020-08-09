@@ -2,5 +2,4 @@
 
 Pytest basics 101
 
-
-
+Project uses Travis CI
